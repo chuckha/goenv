@@ -10,13 +10,13 @@ This will create the dirs `bin`, `pkg` and `src`, update `$PATH` to include the 
 
 # Usage
 
-## To start a new Go project
+## To create a new $GOPATH
 
-2. mkdir new_project
-3. cd new_project
-4. . goenv
+1. mkdir new_gopath
+2. cd new_gopath
+3. . goenv
 
-## To change environments to an existing Go project
+## To update $GOPATH
 
-1. cd existing_proj
+1. cd existing_gopath
 2. . goenv
