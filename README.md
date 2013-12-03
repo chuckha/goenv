@@ -2,7 +2,7 @@
 
 Create a new go environment in the current working directory
 
-This will create bin/pkg/src and update $PATH and $GOPATH
+This will create the dirs `bin`, `pkg` and `src`, update `$PATH` to include the newly created `bin` dir and update $GOPATH to be the current working directory.
 
 # Usage
 
