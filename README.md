@@ -1,10 +1,10 @@
 # goenv
 
-Create a new Go environment in the current working directory.
+Create a new Go workspace in the current working directory and
+launch a subshell with the correct `$GOPATH` and `$PATH` variables.
 
-This will create the dirs `bin`, `pkg` and `src`, update
-`$PATH` to include the newly created `bin` dir and update
-`$GOPATH` to be the current working directory.
+Note for OS X users and possibly others: subshells will source your .bashrc
+but not your .bash_profile.
 
 # Why?
 
@@ -25,13 +25,13 @@ This script makes that process of changing environment variables easier.
 
 # Usage
 
-## To create a new $GOPATH
+## To create a new Go workspace
 
-1. `$ mkdir new_gopath`
-2. `$ cd new_gopath`
-3. `$ . goenv`
+1. `$ mkdir new_goworkspace`
+2. `$ cd new_goworkspace`
+3. `$ goenv`
 
-## To update $GOPATH
+## To use an existing Go workspace
 
-1. `$ cd existing_gopath`
-2. `$ . goenv`
+1. `$ cd existing_goworkspace`
+2. `$ goenv`
