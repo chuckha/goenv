@@ -1,8 +1,10 @@
 # goenv
 
-Create a new go environment in the current working directory
+Create a new Go environment in the current working directory.
 
-This will create the dirs `bin`, `pkg` and `src`, update `$PATH` to include the newly created `bin` dir and update $GOPATH to be the current working directory.
+This will create the dirs `bin`, `pkg` and `src`, update
+`$PATH` to include the newly created `bin` dir and update
+`$GOPATH` to be the current working directory.
 
 # Installation
 
