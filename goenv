@@ -1,17 +1,4 @@
 #!/bin/bash
-
-# goenv init
-#  makes 3 directories
-#  updates GOPATH
-#  update PATH
-dir=`pwd`
-
-for d in pkg bin src; do 
-if [ ! -d $d ]
-    then
-    mkdir $d 
-fi
-done
-
-export GOPATH=$dir
-export PATH=$GOPATH/bin:$PATH
+mkdir -p bin pkg src
+export GOPATH="`pwd`"
+export PATH="$GOPATH/bin:$PATH"
