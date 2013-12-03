@@ -14,11 +14,11 @@ This will create the dirs `bin`, `pkg` and `src`, update
 
 ## To create a new $GOPATH
 
-1. mkdir new_gopath
-2. cd new_gopath
-3. . goenv
+1. `$ mkdir new_gopath`
+2. `$ cd new_gopath`
+3. `$ . goenv`
 
 ## To update $GOPATH
 
-1. cd existing_gopath
-2. . goenv
+1. `$ cd existing_gopath`
+2. `$ . goenv`
